@@ -135,3 +135,10 @@ The repository includes a GitHub Actions workflow in `.github/workflows/deploy.y
 - **[DEVELOPMENT_GUIDE.md](./DEVELOPMENT_GUIDE.md)**: Step-by-step instructions for adding new products, registering new brands, and updating styles.
 - **[AI_HANDOFF.md](./AI_HANDOFF.md)**: Dedicated handoff guide for subsequent AI models (Gemini Flash).
 
+cd "/home/saif-alfeshawy/Alfeshawy/I-Care Catalog"
+
+# Add your GitHub repository as remote origin (replace with your actual GitHub repo URL)
+git remote add origin [https://github.com/<your-username>/<your-repo-name>.git](https://github.com/alfeshawy/I-Care.git)
+
+# Push to main
+git push -u origin main
