@@ -76,9 +76,8 @@ function materialsPlugin() {
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), materialsPlugin()],
-  // Relative base allows seamless deployment to GitHub Pages (repo subpath or custom domain)
-  // or can be overridden via VITE_BASE_PATH environment variable
-  base: process.env.VITE_BASE_PATH || './',
+  // تم ضبط مسار الأساس خصيصاً لمستودع I-Care على GitHub Pages
+  base: '/I-Care/',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
