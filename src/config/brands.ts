@@ -49,8 +49,8 @@ const sabona: Brand = {
   id: 'sabona',
   nameAr: 'SABONA',
   nameEn: 'SABONA',
-  logoPath: '',
-  hasLogo: false,
+  logoPath: '/materials/Sabona/logo.png',
+  hasLogo: true,
   taglineAr: 'أساور مغناطيسية فاخرة',
   taglineEn: 'Luxury Magnetic Bracelets',
   theme: {

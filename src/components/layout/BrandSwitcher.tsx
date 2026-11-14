@@ -41,7 +41,7 @@ export function BrandSwitcher({ onSelect, className = '' }: BrandSwitcherProps) 
             role="tab"
             aria-selected={isActive}
             onClick={() => handleBrandSelect(id)}
-            className={`px-3 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all duration-200 cursor-pointer ${
+            className={`flex-1 text-center justify-center px-2.5 sm:px-3 py-2 sm:py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all duration-200 cursor-pointer ${
               isActive
                 ? 'shadow-xs font-bold'
                 : 'opacity-75 hover:opacity-100 hover:bg-black/5'

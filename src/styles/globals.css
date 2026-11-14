@@ -45,13 +45,19 @@
   --transition-slow: 400ms ease;
 
   /* Header height */
-  --header-height: 4.25rem;
+  --header-height: 6rem;
 
   /* Z-index scale */
   --z-header: 40;
   --z-floating: 45;
   --z-modal-backdrop: 50;
   --z-modal: 60;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-height: 4.5rem;
+  }
 }
 
 /* ============================================

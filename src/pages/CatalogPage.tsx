@@ -134,7 +134,7 @@ export function CatalogPage() {
 
       {/* Search & Category Filter Bar */}
       <section 
-        className="sticky top-[var(--header-height)] z-30 py-4 backdrop-blur-md border-b transition-colors"
+        className="relative md:sticky md:top-[var(--header-height)] z-20 md:z-30 py-3 sm:py-4 backdrop-blur-md border-b transition-colors"
         style={{
           backgroundColor: 'color-mix(in srgb, var(--color-bg-primary) 94%, transparent)',
           borderColor: 'var(--color-border)',
