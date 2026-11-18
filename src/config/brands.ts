@@ -35,9 +35,10 @@ const icare: Brand = {
     textOnPrimary: '#FFFFFF',
   },
   categories: [
-    { id: 'splints', nameAr: 'الجبائر', nameEn: 'Splints' },
+    { id: 'footwear', nameAr: 'الأحذية الطبية', nameEn: 'Medical Footwear' },
+    { id: 'splints', nameAr: 'الجبائر والدعامات', nameEn: 'Splints & Braces' },
+    { id: 'protection', nameAr: 'الحماية والوقاية', nameEn: 'Protection' },
     { id: 'derma', nameAr: 'العناية بالبشرة', nameEn: 'Derma Care' },
-    { id: 'protection', nameAr: 'الحماية', nameEn: 'Protection' },
   ],
 };
 
