@@ -48,7 +48,20 @@ function materialsPlugin() {
               const filePath = resolve(__dirname, 'Materials', decodedPath);
               if (existsSync(filePath) && statSync(filePath).isFile()) {
                 const ext = extname(filePath).toLowerCase();
-                res.setHeader('Content-Type', mimeMap[ext] || 'application/octet-stream');
+                let contentType = mimeMap[ext];
+                if (!contentType) {
+                  const lower = filePath.toLowerCase();
+                  if (lower.endsWith('.jpg') || lower.endsWith('.jpeg') || lower.endsWith(' jpg') || lower.endsWith(' jpeg')) {
+                    contentType = 'image/jpeg';
+                  } else if (lower.endsWith('.png') || lower.endsWith(' png')) {
+                    contentType = 'image/png';
+                  } else if (lower.endsWith('.webp') || lower.endsWith(' webp')) {
+                    contentType = 'image/webp';
+                  } else {
+                    contentType = 'application/octet-stream';
+                  }
+                }
+                res.setHeader('Content-Type', contentType);
                 res.setHeader('Cache-Control', 'public, max-age=3600');
                 createReadStream(filePath).pipe(res);
                 return;

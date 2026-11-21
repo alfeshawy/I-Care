@@ -37,6 +37,7 @@ const icare: Brand = {
   categories: [
     { id: 'footwear', nameAr: 'الأحذية الطبية', nameEn: 'Medical Footwear' },
     { id: 'splints', nameAr: 'الجبائر والدعامات', nameEn: 'Splints & Braces' },
+    { id: 'physiotherapy', nameAr: 'العلاج الطبيعي', nameEn: 'Physical Therapy' },
     { id: 'protection', nameAr: 'الحماية والوقاية', nameEn: 'Protection' },
     { id: 'derma', nameAr: 'العناية بالبشرة', nameEn: 'Derma Care' },
   ],

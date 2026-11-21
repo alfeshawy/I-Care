@@ -256,4 +256,24 @@ export const icareProducts: Product[] = [
     category: { id: 'protection', nameAr: 'الحماية والوقاية', nameEn: 'Protection' },
     order: 17,
   },
+  {
+    id: 'icare-tens-electrodes',
+    brandId: 'icare',
+    nameAr: 'بادات لاصقة لجهاز التنس الطبي',
+    nameEn: 'TENS Unit Electrode Pads',
+    descriptionAr: 'بادات وأقطاب لاصقة ذاتية عالية التوصيل لجهاز التنس (TENS/EMS)، مخصصة لجلسات العلاج الطبيعي وتسكين آلام العضلات والمفاصل وتنشيط الدورة الدموية.',
+    descriptionEn: 'Premium self-adhesive electrode pads for TENS/EMS physical therapy devices. High conductivity hydrogel for muscle pain relief, rehabilitation, and nerve stimulation.',
+    images: [
+      img('بادات جهاز التنس', 'صورة توضيحية لبادات لاصقة لجهاز التنس jpg', 'بادات جهاز التنس الطبي ICARE', 'ICARE TENS Electrode Pads Illustration'),
+      img('بادات جهاز التنس', 'بدات لاصقة لجهاز التنس 5سم*5سم.jpg', 'بادات لاصقة لجهاز التنس 5*5 سم', 'TENS Electrode Pads 5x5 cm'),
+      img('بادات جهاز التنس', 'بدات لاصقة لجهاز التنس 10سم*5سم.webp', 'بادات لاصقة لجهاز التنس 10*5 سم', 'TENS Electrode Pads 10x5 cm'),
+    ],
+    category: { id: 'physiotherapy', nameAr: 'العلاج الطبيعي', nameEn: 'Physical Therapy' },
+    specs: [
+      { labelAr: 'المقاسات المتوفرة', labelEn: 'Available Sizes', valueAr: '5×5 سم و 10×5 سم', valueEn: '5x5 cm & 10x5 cm' },
+      { labelAr: 'نوع التوصيل', labelEn: 'Connector Type', valueAr: 'وصلة قياسية (Pin 2.0 mm)', valueEn: 'Standard 2.0 mm Pin Connector' },
+      { labelAr: 'الخواص', labelEn: 'Features', valueAr: 'ذاتية الالتصاق، جل موصل ناعم، قابلة لإعادة الاستخدام', valueEn: 'Self-adhesive, high conductivity gel, reusable' },
+    ],
+    order: 18,
+  },
 ];
